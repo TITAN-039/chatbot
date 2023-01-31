@@ -14,10 +14,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "15599295") 
-API_HASH = os.environ.get("API_HASH", "4ce42998f7df4a64934294dadca28ae0") 
-SESSION_NAME = os.environ.get("SESSION_NAME", "")
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://its_star_boi:7234049299@cluster0.8twjh9e.mongodb.net/?retryWrites=true&w=majority") 
+API_ID = os.environ.get("API_ID", "17066403") 
+API_HASH = os.environ.get("API_HASH", "a2d657aa05504a1ff984494d2cb1b82e") 
+SESSION_NAME = os.environ.get("SESSION_NAME", "BQAD-ZbVU7rH5gM0w0SWAbGZtVyWIzQRIEh46jSYnBILjWDq6DYNRWUvDfGjwhClAUaqfifHNkvIFJRAm1Uq1U0jwHPlNXMEyI_5kONfYPmMLiFNnLoS9apjT1GLAoVmRgQOvjJmbrYiFMcVYBP-1SIGJ4G54WlZLGkThKxFYuAK_fzt_nIwubOc5MqehPyeDGP-fLLZPIq-cxbLPbfxhsTMyLcur4vxRLFNvtsvDrZG6j5tLkn-xMij7Iu9kaUBHpeJgOkWq85X_6EUs-LrRQnpAAUbHoQ2eS9M14riFUtN_7QGFxCteG76AbeerQ2n9j4Hc8q7sKvA81m1lcAlX0FvAAAAAVPNwMAA")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://TITAN09:TITAN09@cluster0.xud0wjz.mongodb.net/?retryWrites=true&w=majority") 
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
